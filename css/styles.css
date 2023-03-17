@@ -1,30 +1,56 @@
 /* Importing a Google Font */
 
+h1 {
+	font-family: 'Gloock', serif;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
 /* Changing the main font and background colour */
 
+/* #BD84CF; #f8c8dc*/
+
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: 'Gloock', serif;
+	background-color: #BD84CF;
+	font-size: 18px
 }
 
+.mb-4 {
+	width: 500px;
+	height: 500px; 
+	margin-top:-260px;
+	outline: double;
+}
+
+.mb-5 {
+	margin-top: -190px;
+	font-size: 30px; 
+	color: #FFDC69;
+	outline: #000000;
+	text-decoration-line: overline;
+}
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #79075C;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #272727;
+	
 }
 
 /* Effect on social media buttons */
 
-footer a:hover {
-	opacity: .5;
+.nav-link a:hover {
+	color: #FFF1AB !important;
+}
+
+.active {
+	color: #BD84CF;
 }
 
 /* Corporate navbar */
@@ -32,4 +58,12 @@ footer a:hover {
 #navbar-corporate a.active {
 	color: #800000;
 	font-weight: bold;
+}
+.nav-link{
+	color: #FFDC69;
+	outline-color: #79075C;
+}
+
+.nav-link.active{
+	color: #BD84CF;
 }
