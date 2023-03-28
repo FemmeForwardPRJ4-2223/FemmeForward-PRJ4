@@ -95,3 +95,26 @@ header {
 	margin-top:-45px;
 	text-decoration: underline;
 }
+
+
+/* Other pages - Funding Tiers */
+
+.imggoldcheck {
+	width: 18px;
+	margin-top: -6px;
+}
+
+
+.btn-primary {
+	 border-color: black;
+	background-color:#FABC3C;
+	color: black;
+	font: bolder;
+	margin-top: 13px;
+	font-size: 17px;
+}
+
+
+/* all pages - Footer */
+
+
