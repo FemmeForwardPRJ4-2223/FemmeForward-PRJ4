@@ -1,9 +1,8 @@
 /* Importing a Google Font */
 
 h1 {
-	font-family: 'Gloock', serif;
+	font-family: 'DM Serif Display', serif;
 	color: #272727;
-	
 }
 
 
@@ -87,13 +86,13 @@ header {
 }
 
 .ffcorporate {
-	width: 200px;
-	height: 200px; 
-	margin-top:-80px;
+	width: 300px;
+	height: 300px; 
+	
 }
 .corporateheading {
-	margin-top:-45px;
-	text-decoration: underline;
+	
+	font-family: 'Gloock', serif;
 }
 
 
@@ -129,6 +128,7 @@ header {
 .aboutuspps {
 	width: 230px;
 	border-radius: 20%;
+	
 }
 .jessepfp {
 	width: 275px;
@@ -146,3 +146,27 @@ header {
 	
 }
 
+
+
+.socialmedialogosaboutuspage {
+	width: 200px;
+	margin-top: 30px;
+}
+
+
+.instagramlogoaboutus {
+	margin-left: 100px;
+}
+
+
+.facebooklogoaboutus {
+	margin-left: -5px;
+}
+.connectwithusaboutus {
+	margin-top:90px;
+}
+.aboutuscarousel {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
