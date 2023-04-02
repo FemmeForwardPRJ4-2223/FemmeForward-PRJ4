@@ -46,7 +46,7 @@ header {
 	
 }
 
-/* Effect on social media buttons */
+/* Start Effect on social media buttons */
 
 .nav-link a.hover {
 	color: #FFF1AB !important;
@@ -56,7 +56,9 @@ header {
 	color: #BD84CF;
 }
 
-/* Corporate navbar */
+/* End Effect on social media buttons */
+
+/* Start Corporate navbar */
 
 #navbar-corporate a.active {
 	color: #272727;
@@ -79,7 +81,9 @@ header {
 
 }
 
-/* Other pages - Corporate */
+/* End Corporate navbar */
+
+/* Start Other pages - Corporate */
 
 .py-2{
 	color: #FFF1AB;
@@ -95,8 +99,9 @@ header {
 	font-family: 'Gloock', serif;
 }
 
+/* End Other pages - Corporate */
 
-/* Other pages - Funding Tiers */
+/* Start Other pages - Funding Tiers */
 
 .imggoldcheck {
 	width: 18px;
@@ -118,13 +123,17 @@ header {
 	margin-top: 40px;
 }
 
+/* End Other pages - Funding Tiers */
 
 
-/* all pages - Footer */
+/* Start all pages - Footer */
 
 
 
-/* About Us page - styles */
+/* End all pages - Footer */
+
+
+/* Start About Us page - styles */
 .aboutuspps {
 	width: 230px;
 	border-radius: 20%;
@@ -133,7 +142,6 @@ header {
 .jessepfp {
 	width: 275px;
 	border-radius: 20%;
-	
 }
 
 
@@ -165,8 +173,16 @@ header {
 .connectwithusaboutus {
 	margin-top:90px;
 }
+
 .aboutuscarousel {
 	display: flex;
 	justify-content: center;
 	margin-top: 60px;
 }
+
+.aboutusaboutusheader {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* end About Us page - styles */
