@@ -121,6 +121,21 @@ header {
 
 .pickyourtier {
 	margin-top: 40px;
+	font-size: 60px;
+}
+
+.fundingtiersrow {
+	display: flex;
+	align-content: center;
+	margin-left:210px;
+	width: 100%
+}
+
+.card{
+
+	outline: outset;
+	outline-color: #FFDC69;
+	
 }
 
 /* End Other pages - Funding Tiers */
@@ -128,6 +143,9 @@ header {
 
 /* Start all pages - Footer */
 
+.footerallpages {
+	background-color:  #FFDC69;
+}
 
 
 /* End all pages - Footer */
@@ -186,3 +204,6 @@ header {
 }
 
 /* end About Us page - styles */
+
+
+
