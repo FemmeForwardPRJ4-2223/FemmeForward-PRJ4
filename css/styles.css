@@ -1,22 +1,30 @@
 /* Importing a Google Font */
 
 h1 {
-	font-family: 'DM Serif Display', serif;
+	font-family: 'Noto Serif Display', serif;
 	color: #272727;
 }
 
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	color: #FABC3C;
+	
+	
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
 /* Changing the main font and background colour */
 
-/* #BD84CF; #f8c8dc  #272727 #f5f5f5   */
+/* #BD84CF; #f8c8dc  #272727 #f5f5f5  #FABC3C */
 
 body {
-	font-family: 'Gloock', serif;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: #f5f5f5;
-	font-size: 18px
+	font-size: 18px;
+	font-weight: 400;
+
 }
 
 .mb-4 {
@@ -48,22 +56,13 @@ header {
 
 /* Start Effect on social media buttons */
 
-.nav-link a.hover {
-	color: #FFF1AB !important;
-}
 
-.active {
-	color: #BD84CF;
-}
 
 /* End Effect on social media buttons */
 
-/* Start Corporate navbar */
+/* Start navbar */
 
-#navbar-corporate a.active {
-	color: #272727;
-	font-weight: bold;
-}
+
 .nav-link{
 	color: #FABC3C;
 	-webkit-text-stroke: .12px black;
@@ -71,17 +70,31 @@ header {
 	
 }
 
-.nav-link.active{
-	color: #;
+.activehtmlpage {
+	color: whitesmoke!important;
+	text-decoration: underline;align-content:center;
+	text-decoration-color: #FABC3C;
+	text-decoration margin-top: 200px;
 }
 
 .nav{
 	outline-style:outset;
-	background: #
 
 }
 
-/* End Corporate navbar */
+.nav-item {
+	border-right: 1px solid #FABC3C;
+}
+
+.nav-item:last-child {
+  border-right: none;
+}
+
+
+.supportusherebtn{
+margin-top: 1px;
+}
+/* End navbar */
 
 /* Start Other pages - Corporate */
 
@@ -96,7 +109,7 @@ header {
 }
 .corporateheading {
 	
-	font-family: 'Gloock', serif;
+	font-family: 'Noto Serif Display', serif;
 }
 
 /* End Other pages - Corporate */
@@ -155,21 +168,35 @@ header {
 .aboutuspps {
 	width: 230px;
 	border-radius: 20%;
+	box-shadow: 5px 5px #FABC3C;
 	
 }
 .jessepfp {
 	width: 275px;
 	border-radius: 20%;
+	box-shadow: 5px 5px #FABC3C;
 }
 
 
 .lisepfp{
 	width: 248px;
 	border-radius: 60px;
+	box-shadow: 5px 5px #FABC3C;
+	
 }
 
-.circle-frame{
-	
+.brand-vision {
+  background-image: linear-gradient(#FABC3C, #FFDC69);
+  color: #333;
+  text-align: center;
+  padding: 120px;
+  height: vh;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.5;
+	border-radius: 100px;
+
 }
 
 
@@ -198,7 +225,63 @@ header {
 	margin-bottom: 30px;
 }
 
+.value1row {
+	margin-top: 80px;
+}
+
+.value2row{
+	margin-top: 80px;
+}
+
+.value3row {
+	margin-top: 80px;
+}
+
+.value4row {
+	margin-top: 80px;
+	margin-bottom: 120px;
+}
+
+.value1border {
+	border-radius: 100px;
+	outline: outset;
+	box-shadow: 10px 10px #FABC3C;
+	
+}
+
+.value2border{
+	border-radius: 100px;
+	outline: outset;
+	box-shadow: 10px 10px #FABC3C inset;
+}
+	
+.value3border{
+	border-radius: 100px;
+	outline: outset;
+	box-shadow: 10px 10px #FABC3C;
+}
+
+.value4border{
+		border-radius: 100px;
+	outline: outset;
+	box-shadow: 10px 10px #FABC3C inset;
+}
+
+.valuesimg {
+	border-radius: 1000px;
+}
+
+.vaueadjustmentimg {
+	margin-left: 50px;
+}
+
 /* end About Us page - styles */
+
+
+
+
+
+
 
 
 
