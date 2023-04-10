@@ -71,10 +71,10 @@ header {
 }
 
 .activehtmlpage {
-	color: whitesmoke!important;
+	color: #f5f5f5!important;
 	text-decoration: underline;align-content:center;
 	text-decoration-color: #FABC3C;
-	text-decoration margin-top: 200px;
+	
 }
 
 .nav{
@@ -283,11 +283,61 @@ margin-top: 1px;
 
 /* end About Us page - styles */
 
+.layout-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+	
+}
 
+.layout-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 
+.layout-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.image-container {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+ 
+}
 
+.text-container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  
+}
 
+.layout-3-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
 
+.column {
+  flex-basis: 30%;
+}
 
+.column:not(:last-child) {
+  margin-right: 5%;
+}
 
+.visualidentityimg {
+	width: 85%;
+	border-radius: 90px;
+	box-shadow: 5px 5px #FABC3C;
+}
