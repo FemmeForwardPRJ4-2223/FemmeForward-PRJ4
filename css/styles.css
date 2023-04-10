@@ -141,7 +141,9 @@ margin-top: 1px;
 	display: flex;
 	align-content: center;
 	margin-left:210px;
-	width: 100%
+	width: 100%;
+	margin-top: 50px;
+	
 }
 
 .card{
@@ -273,6 +275,10 @@ margin-top: 1px;
 
 .vaueadjustmentimg {
 	margin-left: 50px;
+}
+
+.hrgettoknowus{
+	width: 40%
 }
 
 /* end About Us page - styles */
