@@ -70,10 +70,10 @@ header {
 }
 
 .activehtmlpage {
-	color: whitesmoke!important;
+	color: #f5f5f5!important;
 	text-decoration: underline;align-content:center;
 	text-decoration-color: #FABC3C;
-	text-decoration margin-top: 200px;
+	
 }
 
 .nav{
@@ -121,9 +121,11 @@ margin-top: 1px;
 }
 
 
+
+
 .btn-primary {
 	 border-color: black;
-	background-color:#FABC3C;
+	background-color:#FABC3C !important;
 	color: black;
 	font: bolder;
 	margin-top: 13px;
@@ -149,9 +151,14 @@ margin-top: 1px;
 
 	outline: outset;
 	outline-color: #FFDC69;
+	box-shadow: 8px 8px 20px  #272727; 
 	
 }
 
+
+#myCarouselinvestor {
+	margin-top: 29px;
+}
 /* End Other pages - Funding Tiers */
 
 
@@ -160,6 +167,12 @@ margin-top: 1px;
 .footerallpages {
 	background-color:  #FFDC69;
 }
+
+.footerlogo{
+	width: 80px;
+	margin-right: 200px;
+}
+
 
 
 /* End all pages - Footer */
@@ -186,22 +199,6 @@ margin-top: 1px;
 	
 }
 
-.brand-vision {
-  background-image: linear-gradient(#FABC3C, #FFDC69);
-  color: #333;
-  text-align: center;
-  padding: 120px;
-  height: vh;
-  font-size: 3rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-  line-height: 1.5;
-	border-radius: 100px;
-
-}
-
-
-
 .socialmedialogosaboutuspage {
 	width: 200px;
 	margin-top: 30px;
@@ -222,7 +219,7 @@ margin-top: 1px;
 
 
 .aboutusaboutusheader {
-	margin-top: 30px;
+	margin-top: 100px;
 	margin-bottom: 30px;
 }
 
@@ -280,6 +277,7 @@ margin-top: 1px;
 	width: 40%
 }
 
+HEAD
 .carousel{
 	height: 500px;
 	width: 800px; 
@@ -295,12 +293,96 @@ margin-top: 1px;
 .color{ 
 color: black;
 }
+
+
+.layout-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+	
+}
+
+.layout-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.layout-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+ 
+}
+
+.text-container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  
+}
+
+.layout-3-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 50px;
+	margin-top: 100px;
+}
+
+.column {
+  flex-basis: 30%;
+}
+
+.column:not(:last-child) {
+  margin-right: 5%;
+}
+
+.visualidentityimg {
+	width: 85%;
+	border-radius: 90px;
+	box-shadow: 5px 5px #FABC3C;
+}
+
+
+.visionbanner{
+	box-shadow: 10px 10px 15px  #FABC3C; 
+	margin-top: 4px;
+	outline: outset;
+	outline-style: double;
+}
+
 /* end About Us page - styles */
 
 
+/* start Product page - styles */
+
+.productpageheadings{
+	outline-style: outset;
+	border-radius: 1000px;
+	box-shadow: 5px 5px 10px #272727;
+}
+
+
+.whyourbrand{
+	margin-top: 50px;
+}
 
 
 
+
+	
 
 
 
