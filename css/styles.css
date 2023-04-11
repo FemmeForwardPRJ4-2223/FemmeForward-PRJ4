@@ -187,22 +187,6 @@ margin-top: 1px;
 	
 }
 
-.brand-vision {
-  background-image: linear-gradient(#FABC3C, #FFDC69);
-  color: #333;
-  text-align: center;
-  padding: 120px;
-  height: vh;
-  font-size: 3rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-  line-height: 1.5;
-	border-radius: 100px;
-
-}
-
-
-
 .socialmedialogosaboutuspage {
 	width: 200px;
 	margin-top: 30px;
@@ -223,7 +207,7 @@ margin-top: 1px;
 
 
 .aboutusaboutusheader {
-	margin-top: 30px;
+	margin-top: 100px;
 	margin-bottom: 30px;
 }
 
@@ -281,7 +265,6 @@ margin-top: 1px;
 	width: 40%
 }
 
-/* end About Us page - styles */
 
 .layout-1 {
   display: flex;
@@ -326,6 +309,7 @@ margin-top: 1px;
   justify-content: space-between;
   margin-bottom: 50px;
   margin-left: 50px;
+	margin-top: 100px;
 }
 
 .column {
@@ -341,3 +325,12 @@ margin-top: 1px;
 	border-radius: 90px;
 	box-shadow: 5px 5px #FABC3C;
 }
+
+
+.visionbanner{
+	box-shadow: 10px 10px 15px  #FABC3C; 
+	margin-top: 4px;
+	outline: outset;
+}
+
+/* end About Us page - styles */
