@@ -122,9 +122,11 @@ margin-top: 1px;
 }
 
 
+
+
 .btn-primary {
 	 border-color: black;
-	background-color:#FABC3C;
+	background-color:#FABC3C !important;
 	color: black;
 	font: bolder;
 	margin-top: 13px;
@@ -150,9 +152,14 @@ margin-top: 1px;
 
 	outline: outset;
 	outline-color: #FFDC69;
+	box-shadow: 8px 8px 20px  #272727; 
 	
 }
 
+
+#myCarouselinvestor {
+	margin-top: 29px;
+}
 /* End Other pages - Funding Tiers */
 
 
@@ -331,6 +338,29 @@ margin-top: 1px;
 	box-shadow: 10px 10px 15px  #FABC3C; 
 	margin-top: 4px;
 	outline: outset;
+	outline-style: double;
 }
 
 /* end About Us page - styles */
+
+
+/* start Product page - styles */
+
+.productpageheadings{
+	outline-style: outset;
+	border-radius: 1000px;
+	box-shadow: 5px 5px 10px #272727;
+}
+
+
+.whyourbrand{
+	margin-top: 50px;
+}
+
+
+
+
+	
+
+
+
