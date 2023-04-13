@@ -154,6 +154,7 @@ margin-top: 1px !important;
 	margin-left:210px;
 	width: 100%;
 	margin-top: 50px;
+	margin-bottom: 80px;
 	
 }
 
@@ -163,6 +164,10 @@ margin-top: 1px !important;
 	outline-color: #FFDC69;
 	box-shadow: 8px 8px 20px  #272727; 
 	
+}
+
+.ourjewelry {
+	margin-top: 60px;
 }
 
 
@@ -394,4 +399,5 @@ color: black;
 }
 
 /* end landing page - styles */
+
 
