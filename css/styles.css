@@ -222,6 +222,7 @@ margin-top: 1px;
 
 .value1 {
 	margin-top: 80px;
+
 }
 
 
@@ -234,6 +235,7 @@ margin-top: 1px;
 	border-radius: 100px;
 	outline: outset;
 	box-shadow: 10px 10px #FABC3C;
+	background-color: white;
 	
 }
 
@@ -249,11 +251,6 @@ margin-top: 1px;
 
 .hrgettoknowus{
 	width: 40%
-}
-
-.carousel{
-	height: 500px;
-	width: 800px; 
 }
 
 .padding{ 
@@ -349,6 +346,7 @@ color: black;
 	outline-style: outset;
 	border-radius: 1000px;
 	box-shadow: 5px 5px 10px #272727;
+	background-color: white;
 }
 
 
@@ -365,6 +363,4 @@ color: black;
 .headaboutus{
 	color: #4a3821;
 }
-
-
 
