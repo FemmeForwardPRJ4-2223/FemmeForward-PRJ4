@@ -116,6 +116,13 @@ margin-top: 1px !important;
 .hotlinkscolor {
 	background: #f5f5f5;
 }
+
+	.fonts{
+		width: 40%;
+	 border-radius: 10%;
+		box-shadow: 5px 5px #FABC3C;
+	}
+
 /* End Other pages - Corporate */
 
 /* Start Other pages - Funding Tiers */
