@@ -9,13 +9,14 @@
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 	  
 	  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Serif+Display&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- Bootstrap Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  
 
     <title>FemmeForward Home</title>
 
@@ -45,23 +46,23 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
 				
-            <a class="nav-link active activehtmlpage" aria-current="page" href="index.html">HOME</a> 
+            <a class="nav-link active activehtmlpage" aria-current="page" href="index.html">Home</a> 
             </li>
 		
             <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">ABOUT US</a>
+              <a class="nav-link" href="aboutus.html">About us</a>
             </li>
            
            <li class="nav-item">
-			  <a class="nav-link" href="productpage.html">OUR PRODUCTS</a>
+			  <a class="nav-link" href="productpage.html">Support us</a>
 			  </li>
 			  <li><hr class="navbar-divider"></li>
 			   <li class="nav-item">
-              <a class="nav-link" href="corporate.html">CORPORATE</a>
+              <a class="nav-link" href="corporate.html">Corporate</a>
             </li>
 			  <li class="nav-item">
-				    <a class="nav-link btn btn-primary supportusherebtn" href="fundingtiers.html">Support us here!</a>
-      </li>
+				    <a class="nav-link btn btn-primary supportusherebtn" href="productpage.html">Donate</a>
+      		  </li>
 		
 			 
           </ul>
@@ -71,96 +72,87 @@
 		
   <!-- End of navigation bar -->
 
-  <!-- Start of main placeholder in landing page -->
- 
-	<div class="padding justify-content-center"> 
-		
-	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/finallonglogocrop.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-		  <h5 class="color">What do we offer?</h5>
+  <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
+ <div class="container-fluid p-0 w-100">
+      <div id="myCarousel" class="carousel slide productcarousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/earrings.jpg" class="d-block mx-auto w-100" alt="Earrings">
+            <div class="carousel-caption">
+              <h2 class="d-none d-md-block">Earrings</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/necklace.jpg" class="d-block mx-auto w-100" alt="Necklace">
+            <div class="carousel-caption">
+              <h2 class="d-none d-md-block">Necklace</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/rings.jpg" class="d-block mx-auto w-100" alt="Rings">
+            <div class="carousel-caption">
+              <h2 class="d-none d-md-block">Rings</h2>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="images/finallonglogo.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="images/finalshortlogo.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-		  <h5>Third slide label</h5>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 	
-		</div>
-		
- <main>
-		<div class="padding text-center">
-		
-		<h3> WE are WOMEN. Stand in your Power. Love yourself. Be yourself. </h3>
-			
-		</div>
-	 
-	 	<div class="padding">
-			
-		<img src="images/finallonglogo.jpg" alt="FemmeForwardLongLogo" width="200">
-			
-			<p> We believe that a woman's individuality is her strength. The days spent in a man's shadow are of the past. Embrace your power. Join us in our movement Forward.</p>
-	 		<button type="button" class="btn btn-dark">More about us here!</button>
-		
-		 </div>
-	 
-	 	<div class="padding">
-			
-		<img src="images/finallonglogo.jpg" alt="FemmeForwardLongLogo" width="200">
-			
-			<p> Make your statement. Be bold. Dare to stand out. </p>
-	 		<button type="button" class="btn btn-dark">More about our product here!</button>
-		
-		
-		</div>
-		 
-	 
-	 	<div class="padding">
-			
-		<img src="images/finallonglogo.jpg" alt="FemmeForwardLongLogo" width="200">
-			
-			<p> Join the movement forward. Embrace your strength. Support our community. </p>
-	 		<button type="button" class="btn btn-dark">Support us here!</button>
-		
-		
-		</div>
+	<!-- End of carousel -->
 	
-
- </main>
+	<div>
+		<main class="h-0 flex-column justify-content-center">
+			<div class="container text-center paddingtop">
+				<div class="row">
+					<div class="col-sm">
+						<img src="images/dianne.png" class="img-fluid" alt="earrings">
+					</div>
+					<div class="col-sm">
+						<h2>We Are...</h2>
+							<p> A dedicated team who believe in a world where women are embraced for the most complete versions of themselves.<br><br> Gone are the days where we are shamed for breaking the shackles of society's expectations.<br><br> We are the Future. <br><br> We are Femme Forward.</p>
+						<a class="btn btn-primary" href="aboutus.html" role="button">More about us</a>
+					</div>
+			
+			<div class="container text-center paddingtop">
+				<div class="row">
+					<div class="col-sm">
+						<h2>We Offer...</h2><br>
+							<p> Uniquely designed jewelry. We have taken our time to meticulously design pieces worthy of being worn by you. <br><br> Our line includes an earring set, a necklace, and a ring of this design. <br><br> Our goal is to have women wear our jewelry as a statement piece.<br> <br>Wherever you go, you know you have a community to rely on. <br><br> We would greatly appreciate your monetary support to help us realise our goal.<br><br> In exchange, we have a little gift for you...</p>
+						<a class="btn btn-primary" href="productpage.html" role="button">Learn more!</a>
+					</div>
+					<div class="col-sm">
+						<img src="images/jewelrydemos.png" class="img-fluid" alt="earrings">
+					</div>
+				</div>
+			</div>
+					
+					
+				</div>
+			</div>
+		</main>
+	</div>
   <!-- End of main placeholder -->
 
 	 <!-- Footer start -->
-	  <footer class="sticky-bottom shadow-lg mt-5 py-4 bg-body">
+	  <footer class="shadow-lg mt-5 py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p class="footertext">
           © 2022–2023 — FemmeForward Official 
         </p>
-		  <li><img src="images/femmeforwardlogobigpng.png" class="footerlogo" alt="FemmeForwardLogo"> </li>
+		  <li class="list-unstyled"><img src="images/femmeforwardlogobigpng.png" class="footerlogo" alt="FemmeForwardLogo"> </li>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
             <a href="https://www.facebook.com/profile.php?id=100090533892812" target="_blank">
